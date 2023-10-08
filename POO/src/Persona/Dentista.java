@@ -49,11 +49,16 @@ public class Dentista extends Persona {
 		System.out.println("La especialidad: " + especialidad);
 		System.out.println("El salario es: " + salario);
 	}//cierre imprimirInforDentista
+
+
 	
-	
-	
-	//4. Instancia
-	
+	//ToString
+	@Override
+	public String toString() {
+		return "Dentista [especialidad=" + especialidad + ", cedula=" + cedula + ", consultorioAsignado="
+				+ consultorioAsignado + ", experiencia=" + experiencia + ", turno=" + turno + ", salario=" + salario
+				+ "]";
+	}
 	
 	
 	
